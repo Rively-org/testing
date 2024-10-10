@@ -1,0 +1,19 @@
+POST http://localhost:3000/api/v1/userscompany
+Content-Type: application/json
+
+{
+    "name":"Johnathon",
+    "role":"CEO",
+    "company_name":"Kekra Mekra",
+    "company_website":"https://kekramekra.com"
+}
+
+###Create competitor
+POST http://localhost:3000/api/v1/competitor
+Content-Type: application/json
+
+{
+    "company":"6707f139b358cdaf5498f9bc",
+    "competitors":["Company1","Company2","Company3"],
+    "interests":["Pricing"]
+}
